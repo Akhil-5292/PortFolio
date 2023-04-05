@@ -1,0 +1,45 @@
+.home{
+  /* margin-top: 0.5rem;
+  width: 100%;
+  border: 1px solid; */
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid lightseagreen;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 30vw;
+    background-color: lightseagreen;
+   
+}
+
+.left{
+    width: 50vw;
+    height: 84vh;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 7rem;
+    width: 50vw;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    margin-top: 0.4rem;
+}
+
+.pic{
+    position: absolute;
+    height: 24rem;
+    margin-bottom: 250rem;
+    top: 3rem;
+}
