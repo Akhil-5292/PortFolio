@@ -5,19 +5,19 @@
 }
 .circle{
     border-radius: 50%;
-    border: 1px solid lightseagreen;
+    /* border: 1px solid lightseagreen; */
     display: flex;
     justify-content: center;
     height: 40vh;
     width: 30vw;
-    background-color: lightseagreen;
+    /* background-color: lightslategrey; */
    
 }
 
 .left{
     width: 50vw;
     height: 84vh;
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     flex-direction: column;
     /* margin-top: 0.4rem; */
     gap:2rem;
@@ -52,4 +52,8 @@
     margin-top: 2rem;
     height: 40vh;
     width: 40vw;
+}
+
+.wrapper{
+    background-image: url('../banner-bg.png');
 }

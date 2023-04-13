@@ -1,9 +1,12 @@
 import Education from '../Education/Education';
+import Navbar from '../Navbar/Navbar';
 import style from './About.module.css'
 import PinDropIcon from '@mui/icons-material/PinDrop';
 export default function About(){
     return(
         <div className={style.wrapper}>
+            <div className={style.nav}><Navbar/></div>
+            
             <h1 className={style.heading}>Location <PinDropIcon className={style.icon}/></h1>
         <div className={style.location}> 
            <h1 >I am from Bahraich, UP</h1>

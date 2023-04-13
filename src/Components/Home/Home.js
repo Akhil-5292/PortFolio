@@ -4,7 +4,7 @@ import style from './Home.module.css'
 import myPic from '../Removal-601.png'
 export default function Home(){
     return(
-   <div>
+   <div className={style.wrapper}>
     <Navbar/>
     <div className={style.home}>
         <div className={style.left}>
